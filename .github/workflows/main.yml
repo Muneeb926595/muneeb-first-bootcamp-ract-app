@@ -32,6 +32,10 @@ jobs:
       with:
         # Yarn command
         cmd: install
+        
+    - name: Installing Lottie Animations
+      run : yarn add lottie-react-native
+      
     - name: Creating Build
       run: yarn build
     
