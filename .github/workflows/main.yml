@@ -34,7 +34,7 @@ jobs:
         cmd: install
         
     - name: Installing Lottie Animations
-      run : npm add lottie-react-native
+      run : sudo npm add lottie-react-native
       
     - name: Creating Build
       run: yarn build
