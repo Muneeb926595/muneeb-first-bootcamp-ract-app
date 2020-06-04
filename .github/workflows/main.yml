@@ -32,6 +32,10 @@ jobs:
       with:
         # Yarn command
         cmd: install
+        
+    - name: Installing Lottie Animations
+      run : sudo npm add react-lottie
+      
     - name: Creating Build
       run: yarn build
     
