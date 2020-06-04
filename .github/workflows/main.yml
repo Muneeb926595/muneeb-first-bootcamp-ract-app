@@ -36,7 +36,7 @@ jobs:
       run: yarn build
     
     - name: Installing surge
-      run: npm intall -g surge
+      run: npm install -g surge
 
     - name: deploying on surge
       run: surge ./build http://muneeb_first_react_app.surge.sh --token ${{secrets.SURGE_TOKEN}}
